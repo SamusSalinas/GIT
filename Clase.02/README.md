@@ -20,3 +20,11 @@ git log
 ``` sh
 git log --oneline
 ```
+
+## GIT DIIF
+Me permite visualizar los cambios que hay entre el WD (working directory) y la ultima foto (Commit) dentro de la 
+caja de commits (local Repo)
+
+``` sh
+git diff 
+```
