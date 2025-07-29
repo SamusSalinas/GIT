@@ -28,3 +28,15 @@ caja de commits (local Repo)
 ``` sh
 git diff 
 ```
+
+## GIT AMEND 
+Me permite agregar cambios al ultimo commit. Sean lineas de codigo o archivos completos
+
+Coloco en el area temporal (Stage area) los cambios que quiero sumar en el ulimo commit. Sean lineas que me faltaron, archivos que faltaron. Y luego hago el amend  
+``` sh
+git add .
+git commit --amend 
+```
+El GIT commit suele abrir un editor de texto
+* Ctrl + O: Guardar 
+* Ctrl + X: Salir
