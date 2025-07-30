@@ -59,3 +59,13 @@ git push -u origin main
 ``` sh
 git push 
 ```
+
+## Resolver conflicto 
+Cuando hay una diferencia entre la historia (los hashes) del local con los del remoto
+
+![conflicto01](imgs/Captura%20de%20pantalla%202025-07-29%20211043.png)
+
+``` sh
+git push -f # fuerza la subida de lo que esta en el repo local 
+```
+
