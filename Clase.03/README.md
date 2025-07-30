@@ -68,4 +68,13 @@ Cuando hay una diferencia entre la historia (los hashes) del local con los del r
 ``` sh
 git push -f # fuerza la subida de lo que esta en el repo local 
 ```
+## GIT ignore
+Me permite ignorar archivos que no quiero que pertenezcan al repositorio 
 
+## GITKEEP
+Lo creo la comunidad para incluir los repositorios de las carpetas vacias
+
+## GIT ADD INTERACTIVO (CONTINUACION)
+``` sh
+git add -i
+```
